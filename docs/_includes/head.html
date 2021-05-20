@@ -14,11 +14,10 @@
 	{% if page.usemathjax %}
 	  <script type="text/x-mathjax-config">
 		MathJax.Hub.Config({
-		TeX: { equationNumbers: { autoNumber: "AMS" } }
-	      	tex2jax: {
-		skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-		inlineMath: [['$','$']]
-	      	}
+		TeX: { equationNumbers: { autoNumber: "AMS" } },
+	      	tex: {
+    			inlineMath: [['$', '$'], ['\\(', '\\)']]
+  		}
 		});
 	  </script>
 	  <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
