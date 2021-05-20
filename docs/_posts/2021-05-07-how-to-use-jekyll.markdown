@@ -3,11 +3,16 @@ usemathjax: true
 layout: post
 title:  "Cross Entropy Introduction!"
 date:   2021-05-20 10:00:36 +0000
-categories: learning notes, machine learning
 ---
 $$
 Information = -log(P(x))
 $$
+
+$$
+Entropy\quad H(X) = \sum_i p_i log(p_i)
+$$
+
+where $p_i$ is probability that the system in the $i$th state.
 
 
 
@@ -40,3 +45,6 @@ $bundle init
 $bundle update
 ```
 
+
+
+[id]: 
