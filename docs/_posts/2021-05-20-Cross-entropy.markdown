@@ -12,7 +12,7 @@ $$
 Entropy\quad H(X) = \sum_i p_i log(p_i)
 $$
 
-where \(p_i​\) is probability that the system in the ​\(i​\)th state.
+where $p_i$ is probability that the system in the $i$th state.
 
 
 
