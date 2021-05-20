@@ -3,6 +3,7 @@ layout: post
 title:  "Cross Entropy Introduction!"
 date:   2021-05-20 10:00:36 +0000
 categories: learning notes, machine learning
+usemathjax: true
 ---
 $$
 Information = -log(P(x))
