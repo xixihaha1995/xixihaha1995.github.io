@@ -18,6 +18,8 @@ $$
 
 where $p_i$ is probability that the system in the $i$th state.
 
+# Cross Entropy
+
 For cross-entropy/distance from approximation distribution to target distribution/similarity between target distribution P and approximation distribution Q
 
 
