@@ -1,12 +1,17 @@
 ---
 usemathjax: true
 layout: post
-title:  "Cross Entropy Introduction!"
+title:  "Cross Entropy Introduction"
 date:   2021-05-20 10:00:36 +0000
+
 ---
+
+# Equation
+
 $$
 Information = -log(P(x))
 $$
+
 
 $$
 Entropy\quad H(X) = \sum_i p_i log(p_i)
@@ -14,37 +19,7 @@ $$
 
 where $p_i$ is probability that the system in the $i$th state.
 
-
-
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
-
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
-
-```shell
-$jekyll new .
-$bundle init
-#generating Gemfile
-# Add the following to Gemfile
-# gem "github-pages", "~> GITHUB-PAGES-VERSION", group: :jekyll_plugins
-$bundle update
-```
-
-
-
-[id]: 
+For cross-entropy/distance from approximation distribution to target distribution/similarity between target distribution P and approximation distribution Q:
+$$
+Cross-Entropy(P,Q)\quad H(P,Q) = \sum_i p_i log(Q_i)
+$$
