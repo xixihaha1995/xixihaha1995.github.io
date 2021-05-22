@@ -42,8 +42,7 @@ CrossEntropy(P,Q)\quad H(P,Q) = -\sum_i P_i log(Q_i)
 $$
 
 where $P_i$ is the probability of the event i in P, $Q_i$ is the probability of event x in Q, $log$ is the base 2 logarithm.
+
 $$
-\begin{equation}
 why cannot render correctly
-\end{equation}
 $$
