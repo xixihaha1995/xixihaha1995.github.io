@@ -1,5 +1,6 @@
 ---
 usemathjax: true
+mathjax: true
 layout: post
 title:  "Cross Entropy Introduction"
 date:   2021-05-20 10:00:36 +0000
