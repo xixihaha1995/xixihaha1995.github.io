@@ -6,33 +6,11 @@ date:   2021-05-20 10:00:36 +0000
 
 ---
 
-Linear Classifiers, Gradient Descent
+# Background
 
-# Equation
+scalar $s \in \mathcal{R}^1$, vector $v\in \mathcal{R}^m$,
 
-$$
-Information = -log(P(x))
-$$
+what is the size of $\frac{\partial v}{\partial s}$?  Column vector $\mathcal{R}^{m\times 1}$
 
-$$
-Entropy\quad H(X) = -\sum_i p_i log(p_i)
-$$
+what is the size of $\frac{\partial s}{\partial v}$?  Row vector $\mathcal{R}^{1\times m}$
 
-where $p_i$ is probability that the system in the $i$th state.
-$$
-A test equation
-$$
-
-
-# Cross Entropy
-
-For cross-entropy,distance from approximation distribution to target distribution,similarity between target distribution P and approximation distribution Q
-
-
-$$
-CrossEntropy(P,Q)\quad H(P,Q) = -\sum_i P_i log(Q_i)
-$$
-where $P_i$ is the probability of the event i in P, $Q_i$ is the probability of event x in Q, $log$ is the base 2 logarithm.
-$$
-why cannot render correctly
-$$
