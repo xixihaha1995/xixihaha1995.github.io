@@ -18,3 +18,17 @@ what is the size of $\frac{\partial vectorone}{\partial vectortwo}$? Matrix $\ma
 
 what is the size of **partial derivative of a scalar loss w.r.t. matrix weights**? A matrix  
 
+# Update Rule
+
+This rule is used to update one **single** weight parameters.
+$$
+w_j \leftarrow w_j - \eta \frac{\partial L}{\partial w_j}
+$$
+
+
+The above rule can be "simplified"
+$$
+w_j \leftarrow w_j + 2\eta\sum_{k=1}^{All Instances}\delta_kx_{kj}
+$$
+where $\delta_k = y_k - w^Tx_k$, **one instance** loss
+
