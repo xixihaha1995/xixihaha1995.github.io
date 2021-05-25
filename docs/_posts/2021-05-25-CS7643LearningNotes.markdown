@@ -2,7 +2,7 @@
 usemathjax: true
 layout: post
 title:  "Learning notes for CS7643"
-date:   2021-05-20 10:00:36 +0000
+date:   2021-05-25
 
 ---
 
