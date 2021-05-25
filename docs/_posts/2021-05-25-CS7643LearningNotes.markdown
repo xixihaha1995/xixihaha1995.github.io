@@ -34,5 +34,6 @@ The above rule can be "simplified"
 $$
 w_j \leftarrow w_j + 2\eta\sum_{k=1}^{All Instances}\delta_kx_{kj}
 $$
+
 where $\delta_k = y_k - w^Tx_k$, **one instance** loss
 
