@@ -45,3 +45,5 @@ where $\delta_k = y_k - w^Tx_k$, **one instance** loss
 3. We need to compute:$\{\frac{\partial L }{\partial h^{l-1}},\frac{\partial L }{\partial W}\}$
 
 But why do we need store "local nodes outputs"?
+
+For example, if we had **max** operation, we need strictly flow back though the path which has the maximum value.
