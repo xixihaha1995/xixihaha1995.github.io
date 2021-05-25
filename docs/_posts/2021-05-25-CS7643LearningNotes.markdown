@@ -37,3 +37,11 @@ $$
 
 where $\delta_k = y_k - w^Tx_k$, **one instance** loss
 
+# Backpropagation
+
+* This is an recrusive algo.
+1. Local ability: we can compute: $\{\frac{\partial h^l }{\partial h^{l-1}},\frac{\partial h^l }{\partial W}\}$
+2. We are given: $\frac{\partial L}{\partial h^l}$
+3. We need to compute:$\{\frac{\partial L }{\partial h^{l-1}},\frac{\partial L }{\partial W}\}$
+
+But why do we need store "local nodes outputs"?
